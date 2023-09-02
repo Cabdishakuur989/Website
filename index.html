@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>WELCOME</h1>
+            <P>Ku soo dhawada Our website  </P>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find out</a>
+                <a href="#"><span></span>Read more</a>
+
+
+
+            </div>
+            </section>
+            <div id="sideNav">
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        </ul>
+ </nav>
+ </div>
+ <div id="menuBtn">
+   <img src="image/bers.png" id="menu">
+
+</div>
+<script>
+    var menuBtn=document.getElementById("menuBtn")
+    var sideNav=document.getElementById("sideNav")
+    var menu=document.getElementById("menu")
+
+    sideNav.style.right="-250px";
+    
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right =="-250px"){
+
+            sideNav.style.right="0"
+            menu.src="image/close.png";
+}
+        else{
+
+            sideNav.style.right="-250px";
+            menu.src="image/bers.png";
+ }
+  }
+
+
+
+</script>
+
+   </nav>
+   <section class="course">
+    <h1>Course we Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, nesciunt.</p>
+
+    <div class="row">
+       
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Net working</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus iure minus a eos fugit quae, corrupti aspernatur placeat consectetur iusto libero ducimus nam incidunt
+                     expedita officiis enim id quasi!</p>
+    
+    
+            </div>
+            <div class="course-col">
+                <h3>Web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus iure minus a eos fugit quae, corrupti aspernatur placeat consectetur iusto libero ducimus nam incidunt
+                     expedita officiis enim id quasi!</p>
+    
+    
+            </div>
+            <div class="course-col">
+                <h3>Graphic design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus iure minus a eos fugit quae, corrupti aspernatur placeat consectetur iusto libero ducimus nam incidunt
+                     expedita officiis enim id quasi!</p>
+    
+    
+            </div>
+            
+          
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </section>
+            <section class="campus">
+                <h1>Our Service</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sint.</p>
+
+
+               <div class="row">
+
+                <div class="campus-col">
+                <img src="image/picture1.jpg">
+                
+                <div class="layer">
+                    <h3>Web development</h3>
+
+
+
+
+                </div>
+
+
+                
+
+
+                </div>
+
+                <div class="campus-col">
+                    <img src="image/picture1.jpg">
+                    
+                    <div class="layer">
+                        <h3>Web development</h3>
+    
+    
+    
+    
+                    </div>
+    
+    
+                 </div>  
+  <div class="campus-col">
+                    <img src="image/picture2.jpg">
+                    
+                    <div class="layer">
+                        <h3>Basic Computer</h3>
+     </div> </div>
+               </div>
+            </section>
+            <section class="contact">
+                <h1>Contact us</h1>
+                <p>Fadlan halkan nagala soo xidhiidh thanks</p>
+                 <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Coment:</label>
+                <textarea id="Coment" name="Coment" required></textarea>
+                <button type="submit"id="bar">Send Message</button>
+            </form>
+
+
+
+
+
+            </section>
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br>Earum commodi tempora atque at voluptatum nobis eius fuga tempore ipsam totam?
+                </p>
+
+
+
+
+
+
+            </section>
+            
+            
+            
+        
+    
+</body>
+</html>
